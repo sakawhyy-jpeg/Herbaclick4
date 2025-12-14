@@ -1,0 +1,21 @@
+/* assets/styles.css - eksternal */
+.navlink { color:#2c7a7b; text-decoration:none; font-weight:600; }
+.navlink:hover { text-decoration:underline; }
+
+.btn-primary {
+  background: linear-gradient(90deg,#2b6cb0,#2c7a7b);
+  color:white;
+}
+.btn-secondary {
+  background:#e6fffa; color:#2c7a7b; border:1px solid #bdecd6;
+}
+
+.product-grid {
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+  gap:16px;
+}
+.card {
+  border-radius:12px; padding:12px; background:#fff; box-shadow:0 4px 10px rgba(0,0,0,0.04);
+}
+.small { font-size:13px; color:#666; }
